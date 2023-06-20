@@ -64,7 +64,7 @@ legend.onAdd = function() {
 
     for (var i=0; i < depth.length; i++) {
         div.innerHTML +=
-        '<i style="background: ' + mapColor(depth[i] + 1) + '"></i> ' + depth[i] + (depth[i + 1] ? '&ndash;' + depth[i + 1] + '<br>' : '+');
+        '<i style="background:' + mapColor(depth[i] + 1) + '"></i> ' + depth[i] + (depth[i + 1] ? '&ndash;' + depth[i + 1] + '<br>' : '+');
     }
     return div; 
 };
